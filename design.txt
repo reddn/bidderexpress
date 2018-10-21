@@ -1,0 +1,51 @@
+db tables
+	access_rights
+	area
+	bid_bid -
+	bid_group
+	bid_holiday - not really sure
+	bid_line - row for each biddable line
+	bid_round - each round for a bid_group
+	bid_schedule - row each day on a line
+	bid_slot - row for each day in a bid group
+	bid_tracker - row for each user in a bid round, tracks their current status of that round
+	bid_user - row for each user in a bid group.  total AL accrued for 
+	facility
+	user
+
+	
+	
+access_rights (uint8) 0: no rights    10: regular user
+
+
+admin.php - Shows all facilities user has access to (access limiting has not been built)
+adminarea.php- Shows all bids in a given facility  [GET area={area id}]
+adminareasubmit.php - Adds a new area
+adminbidscheduleeditor.php -  add/edit lines on schedule
+adminbidscheduler.php - Adds/edits scheduled or non scheduled rounds. 
+adminbidslotedit.php - Edits prime bid slots for that day
+adminbidslots.php - Shows list of all days in bid with amount of bid slots per day
+adminbidsubmit.php
+adminbidviewer.php - shows status of selected bid [GET bid  area]not sure why area is in GET
+adminfacility.php - Shows areas in a given facility
+adminfunctions.php
+adminsubmit.php - add new facility
+adminuser.php
+adminuserinfo.php
+adminusersubmit.php
+arraytest.php
+assigninlieuofdays.php
+calcaccruedal.php
+design.txt
+displayschedule.php
+
+functions.php
+header.php
+holiday.php
+index.php
+indexv1.php
+inlueiofday.php
+login.php
+logout.php
+userbidview.php
+

@@ -1,0 +1,5 @@
+adminbidscheudler
+>> add code to create schedule and leave bids 
+ schedulesubmit
+ >> in switch of schedule bid. it opens the next user inorder of BUE, not scheduled_time or order(in bid_user). needs to check
+ 	the bid_round for use_timed_bids
